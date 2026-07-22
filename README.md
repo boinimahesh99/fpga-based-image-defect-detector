@@ -12,7 +12,7 @@ Instead of relying on slower, software-based image processing (like OpenCV on a 
 * **Dual-Memory Image Handling:** 
   * **Reference Image:** Stored in Single-Port ROM (`.coe` initialized).
   * **Test Image:** Ingested live from a PC via a custom 115200 Baud UART receiver and stored in Simple Dual-Port RAM without interrupting the active video feed.
-* **Live Telemetry & Robotics IO:** Utilizes a combinational Double-Dabble (Shift-and-Add-3) algorithm for binary-to-BCD conversion to drive a multiplexed 7-segment display. Triggers physical PMOD pins to simulate rejecting a defective board on a robotic assembly line.
+* **Live Telemetry:** Utilizes a combinational Double-Dabble (Shift-and-Add-3) algorithm for binary-to-BCD conversion to drive a multiplexed 7-segment display. Triggers physical pins to simulate rejecting a defective board(Product/Item).
 
 ##  Hardware Requirements
 * **FPGA Board:** Digilent Nexys 4 DDR / Nexys A7 (Artix-7)
