@@ -27,7 +27,7 @@ fpga-defect-detector/
 ├── src/
 │   ├── hdl/              # Verilog source modules (Top, VGA, UART, DSP, BCD)
 │   ├── constraints/      # Xilinx XDC pin-mapping file for the Nexys board
-│   └── scripts/          # Python utility to send test images over UART
+│   └── script/          # Python utility to send test images over UART
 ├── ip/                   # .coe file containing the golden reference image
 ├── docs/                 # Output images and board photos
 └── README.md             # Project documentation
